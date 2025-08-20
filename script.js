@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = (el, cls) => el.classList.toggle(cls);
 
   const botao = btn('botao-acessibilidade'),
-        opcoes = btn('opcoes-acessibilidade'),
-        aMais = btn('aumentar-fonte'),
-        aMenos = btn('diminuir-fonte'),
-        contraste = btn('alterna-contraste');
+    opcoes = btn('opcoes-acessibilidade'),
+    aMais = btn('aumentar-fonte'),
+    aMenos = btn('diminuir-fonte'),
+    contraste = btn('alterna-contraste');
 
   let fonte = 1;
 
@@ -22,6 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ScrollReveal
-['#inicio', '#tropicalia', '#galeria', '#contato'].forEach(id =>
+['#inicio', '#o-que-e', '#brasil-judo', '#regras-judo', '#galeria', '#contato'].forEach(id =>
   ScrollReveal().reveal(id, { delay: 500 })
 );

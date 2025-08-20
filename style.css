@@ -5,6 +5,8 @@
   --preto: #000;
   --verde: #13f739;
   --amarelo: #ffd700;
+  --branco: #fff; /* Variável adicionada */
+  --laranja: #ff6600; /* Variável adicionada */
 }
 
 body {
@@ -25,7 +27,7 @@ section {
 }
 
 .inicio-fundo {
-  background: url('img/4965007.jpg') right/cover no-repeat;
+  background: url('https://i.imgur.com/G5n4F9N.jpg') center/cover no-repeat;
   border-radius: 80px;
   width: 100%;
   height: 606px;
@@ -60,15 +62,15 @@ section {
   text-shadow: -5px 5px var(--laranja);
 }
 
-#tropicalia {
+.secao-judo { /* Seletor corrigido */
   position: relative;
   padding-top: 5rem;
   margin: 3rem 0;
-  background: url('img/flor.png') top right no-repeat, url('img/flor-esquerda.png') bottom left no-repeat;
+  background: url('https://i.imgur.com/o2Kx6e9.png') top right no-repeat, url('https://i.imgur.com/o2Kx6e9.png') bottom left no-repeat;
   background-size: 180px;
 }
 
-#tropicalia .container {
+.secao-judo .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,12 +89,12 @@ h2 {
 }
 
 .fundo-galeria {
-  background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+  background: url('https://i.imgur.com/o2Kx6e9.png') bottom right no-repeat;
   background-size: 180px;
 }
 
 #contato {
-  background: url('img/4965007.jpg') cover no-repeat;
+  background: url('https://i.imgur.com/tH319uR.jpg') cover no-repeat;
   padding: 4rem 0;
 }
 
@@ -166,7 +168,7 @@ h2 {
   color: var(--preto);
 }
 
-.alto-contraste #tropicalia,
+.alto-contraste .secao-judo,
 .alto-contraste .fundo-galeria {
   background: none;
 }
