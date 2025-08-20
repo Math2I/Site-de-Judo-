@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Lemon&display=swap');
 
 :root {
-  --laranja: #FF862A;
+  --azul: #2600ff;
   --preto: #000;
-  --branco: #fff;
+  --verde: #13f739;
   --amarelo: #ffd700;
 }
 
@@ -20,7 +20,7 @@ section {
 }
 
 .nav-link {
-  color: #CB6D43;
+  color: #2600ff;
   font-weight: 600;
 }
 
