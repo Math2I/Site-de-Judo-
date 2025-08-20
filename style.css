@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Lemon&display=swap');
+
+:root {
+  --laranja: #FF862A;
+  --preto: #000;
+  --branco: #fff;
+  --amarelo: #ffd700;
+}
+
+body {
+  font: 1rem 'Montserrat', sans-serif;
+}
+
+header, .formulario {
+  background: var(--branco);
+}
+
+section {
+  padding-bottom: 5rem;
+}
+
+.nav-link {
+  color: #CB6D43;
+  font-weight: 600;
+}
+
+.inicio-fundo {
+  background: url('img/4965007.jpg') right/cover no-repeat;
+  border-radius: 80px;
+  width: 100%;
+  height: 606px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.img-inicio {
+  position: absolute;
+  right: 0;
+  top: 18rem;
+  width: 45rem;
+  height: auto;
+}
+
+.esquerda-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.botao-inicio {
+  background: var(--laranja);
+  border-radius: 30px;
+  border: none;
+  width: 14em;
+  height: 3em;
+}
+
+.display-4 {
+  text-shadow: -5px 5px var(--laranja);
+}
+
+#tropicalia {
+  position: relative;
+  padding-top: 5rem;
+  margin: 3rem 0;
+  background: url('img/flor.png') top right no-repeat, url('img/flor-esquerda.png') bottom left no-repeat;
+  background-size: 180px;
+}
+
+#tropicalia .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-family: 'Lemon', serif;
+  font-size: 2.5em;
+  color: var(--laranja);
+}
+
+#galeria {
+  background: #FAF4F4;
+}
+
+.fundo-galeria {
+  background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+  background-size: 180px;
+}
+
+#contato {
+  background: url('img/4965007.jpg') cover no-repeat;
+  padding: 4rem 0;
+}
+
+.formulario {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0001;
+  font-weight: bold;
+}
+
+.formulario button,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary,
+.botao-inicio {
+  background: #CB6D43;
+  border: none;
+  font-weight: bold;
+}
+
+.form-control {
+  background: #F1EDEF;
+}
+
+.menu-acessibilidade {
+  position: fixed;
+  top: 2rem;
+  right: 20px;
+  z-index: 1000;
+}
+
+.rotacao-botao {
+  transform: rotate(-90deg);
+  transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+  margin-bottom: 5px;
+}
+
+.apresenta-lista {
+  display: none;
+}
+
+/* Alto contraste */
+.alto-contraste {
+  background: var(--preto);
+  color: var(--branco);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+  background: var(--preto);
+  color: var(--branco);
+}
+
+.alto-contraste .nav-link {
+  color: var(--amarelo);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+  background: var(--amarelo);
+  color: var(--preto);
+}
+
+.alto-contraste #tropicalia,
+.alto-contraste .fundo-galeria {
+  background: none;
+}
+
+.alto-contraste #galeria {
+  background: var(--preto);
+}
